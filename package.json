@@ -1,14 +1,12 @@
-//Здесь хранится мета информация о пакете
-
 {
-  "name": "Site", //Название пакета
-  "version": "1.0.0", //Версия пакета
-  "description": "", //Описание пакета
+  "name": "Site",
+  "version": "1.0.0",
+  "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "", //Информация об авторе пакета
+  "author": "",
   "license": "ISC"
 }
