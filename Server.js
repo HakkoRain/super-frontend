@@ -15,5 +15,7 @@ const server = http.createServer(function (request, Response) { //Встроен
     }
 });
 
-server.listen(5000); //Команда для запуска сервера, в качестве аргумента указан порт для запуска сервера
+console.log('port = ', process.env.PORT); //Запуск сервера на специальном порту
+
+server.listen(process.env.PORT || 5000); //Команда для запуска сервера, в качестве аргумента указан порт для запуска сервера
 console.log('Server started!'); //Сообщение в консоль о том, что сервер запущен успешно.
